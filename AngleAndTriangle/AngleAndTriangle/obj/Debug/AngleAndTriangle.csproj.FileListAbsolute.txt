@@ -1,0 +1,13 @@
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\bin\Debug\AngleAndTriangle.exe.config
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\bin\Debug\AngleAndTriangle.exe
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\bin\Debug\AngleAndTriangle.pdb
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\AngleAndTriangle.csprojResolveAssemblyReference.cache
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\MainWindow.baml
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\MainWindow.g.cs
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\App.g.cs
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\AngleAndTriangle_MarkupCompile.cache
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\AngleAndTriangle.g.resources
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\AngleAndTriangle.Properties.Resources.resources
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\AngleAndTriangle.csproj.GenerateResource.Cache
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\AngleAndTriangle.exe
+D:\VS Projects\AngleAndTriangle\AngleAndTriangle\obj\Debug\AngleAndTriangle.pdb

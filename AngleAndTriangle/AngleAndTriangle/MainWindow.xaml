@@ -1,0 +1,52 @@
+﻿<Window x:Class="AngleAndTriangle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="301" Margin="10,10,0,0" VerticalAlignment="Top" Width="498">
+            <TabItem Header="Сложение углов">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Угол A" HorizontalAlignment="Left" Height="41" Margin="0,10,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Label Content="Угол B" HorizontalAlignment="Left" Height="41" Margin="0,56,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Asumbox" HorizontalAlignment="Left" Height="41" Margin="100,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <TextBox x:Name="Bsumbox" HorizontalAlignment="Left" Height="41" Margin="100,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <TextBox x:Name="Csumbox" HorizontalAlignment="Left" Height="41" Margin="100,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <Label Content="Сумма углов" HorizontalAlignment="Left" Height="41" Margin="0,117,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Button x:Name="Sumbutton" Content="Рассчитать" HorizontalAlignment="Left" Height="49" Margin="10,187,0,0" VerticalAlignment="Top" Width="197" Click="Button_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Вычитание углов">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Угол A" HorizontalAlignment="Left" Height="41" Margin="0,10,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Label Content="Угол B" HorizontalAlignment="Left" Height="41" Margin="0,56,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Asubbox" HorizontalAlignment="Left" Height="41" Margin="100,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <TextBox x:Name="Bsubbox" HorizontalAlignment="Left" Height="41" Margin="100,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <TextBox x:Name="Csubbox" HorizontalAlignment="Left" Height="41" Margin="100,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <Label Content="Разность углов" HorizontalAlignment="Left" Height="41" Margin="0,117,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Button Content="Рассчитать" HorizontalAlignment="Left" Height="49" Margin="10,187,0,0" VerticalAlignment="Top" Width="197" Click="Button_Click1"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Перевод в радианы">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Угол A" HorizontalAlignment="Left" Height="41" Margin="0,10,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Aradbox" HorizontalAlignment="Left" Height="41" Margin="100,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <TextBox x:Name="Cradbox" HorizontalAlignment="Left" Height="41" Margin="100,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <Label Content="В радианах" HorizontalAlignment="Left" Height="41" Margin="0,117,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Button Content="Рассчитать" HorizontalAlignment="Left" Height="49" Margin="10,187,0,0" VerticalAlignment="Top" Width="197" Click="Button_Click2"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Площадь треугольника">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Катет A" HorizontalAlignment="Left" Height="41" Margin="0,10,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Label Content="Катет B" HorizontalAlignment="Left" Height="41" Margin="0,56,0,0" VerticalAlignment="Top" Width="100"/>
+                    <TextBox x:Name="Atribox" HorizontalAlignment="Left" Height="41" Margin="100,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <TextBox x:Name="Btribox" HorizontalAlignment="Left" Height="41" Margin="100,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <TextBox x:Name="Ctribox" HorizontalAlignment="Left" Height="41" Margin="100,117,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="107"/>
+                    <Label Content="Площадь" HorizontalAlignment="Left" Height="41" Margin="0,117,0,0" VerticalAlignment="Top" Width="100"/>
+                    <Button Content="Рассчитать" HorizontalAlignment="Left" Height="49" Margin="10,187,0,0" VerticalAlignment="Top" Width="197" Click="Button_Click3"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>
